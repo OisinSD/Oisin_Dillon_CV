@@ -1,0 +1,58 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.photo-of-me{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    height: 60px;
+    width: 60px;
+}
+.my-first-table{
+    border-collapse: collapse;
+    border: 1px solid black;
+    margin: 5px auto;
+    width: 95%;
+}
+th, td{
+    border: 1px solid black;
+    padding: 6px;
+}
+.back-ground{
+    height: 100vh;
+    width: 100%;
+    background-color: beige;
+}
+
+.my-button{
+    margin: 10px;
+    padding: 5px 10px;
+    background-color: rgb(56, 81, 188);
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+.center{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 700px;
+    margin: 0 auto;
+    
+}
+.top-right{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-block{
+    padding: 5px;
+    
+}
